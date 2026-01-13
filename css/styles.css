@@ -1,0 +1,119 @@
+/* ===== Base styles ===== */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* ===== Header ===== */
+header a {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #2e2f42;
+}
+
+header a:hover {
+  color: #404bbf;
+}
+
+/* Logo */
+span {
+  color: #4d5ae5;
+}
+
+/* Navigation */
+.nav_studio:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+/* ===== Hero section ===== */
+.section_of_h1 {
+  background-color: #2e2f42;
+}
+
+.section_of_h1 h1 {
+  color: #ffffff;
+}
+
+/* Button */
+.order_button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.order_button:hover,
+.order_button:focus {
+  background-color: #404bbf;
+}
+
+/* ===== Our Team ===== */
+.our_team {
+  background-color: #f4f4fd;
+}
+
+.team_title {
+  text-align: center;
+}
+
+.team_list {
+  gap: 24px;
+  justify-content: center;
+}
+
+.team_item {
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 4px;
+  padding-bottom: 32px;
+}
+
+.team_item img {
+  display: block;
+  width: 264px;
+  height: 260px;
+  margin-bottom: 32px;
+}
+
+.team_item h3 {
+  margin-bottom: 8px;
+}
+
+.team_item p {
+  color: #434455;
+}
+
+/* ===== Portfolio ===== */
+.our_portfolio_jpg {
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+
+footer a {
+  color: #ffffff;
+}
