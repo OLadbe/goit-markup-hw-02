@@ -42,6 +42,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  text-decoration: none;
 }
 
 .logo-web {
@@ -165,6 +166,7 @@ body {
 
 /* ===== Portfolio ===== */
 .portfolio-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -175,6 +177,21 @@ body {
   width: 360px;
   height: 300px;
   object-fit: cover;
+}
+
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455
 }
 
 /* ===== Footer ===== */
